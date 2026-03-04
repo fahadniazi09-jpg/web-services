@@ -8,38 +8,66 @@
 </head>
 <body class="bg-gray-50 text-gray-800 font-sans">
 
-    <header class="bg-blue-700 text-white py-16 text-center">
-        <h1 class="text-4xl font-bold">Fahad Niazi</h1>
-        <p class="text-xl mt-2">Expert Web Developer & UI/UX Designer</p>
+    <header class="relative bg-blue-700 text-white py-24 text-center overflow-hidden">
+        <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1200&q=80" class="absolute inset-0 w-full h-full object-cover opacity-20" alt="Background">
+        <div class="relative z-10">
+            <h1 class="text-5xl font-extrabold tracking-tight">Fahad Niazi</h1>
+            <p class="text-2xl mt-4 font-light">Expert Web Developer & UI/UX Designer</p>
+        </div>
     </header>
 
-    <section class="max-w-4xl mx-auto py-12 px-6">
-        <h2 class="text-2xl font-bold border-b-2 border-blue-600 inline-block mb-6">About My Services</h2>
-        <p class="text-lg leading-relaxed text-gray-700">
-            I provide high-quality web development services, including custom website design, responsive layouts, and backend integration. With a focus on performance and user experience, I help businesses establish a strong online presence.
-        </p>
-    </section>
+    <main class="max-w-5xl mx-auto px-6 py-16">
+        
+        <section class="grid md:grid-cols-2 gap-12 items-center mb-20">
+            <div>
+                <h2 class="text-3xl font-bold border-b-4 border-blue-600 inline-block mb-6">About My Services</h2>
+                <p class="text-lg leading-relaxed text-gray-700">
+                    I provide high-quality web development services, including custom website design, responsive layouts, and backend integration. With a focus on performance and user experience, I help businesses establish a strong online presence.
+                </p>
+            </div>
+            <div class="rounded-2xl overflow-hidden shadow-2xl">
+                <img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=600&q=80" alt="Coding" class="w-full">
+            </div>
+        </section>
 
-    <section class="bg-white py-12">
-        <div class="max-w-4xl mx-auto px-6 grid md:grid-cols-3 gap-8">
-            <div class="p-6 border rounded-lg shadow-sm text-center">
-                <h3 class="font-bold mb-2">Frontend Dev</h3>
-                <p class="text-sm">HTML, CSS, JavaScript & React</p>
+        <h2 class="text-3xl font-bold text-center mb-12">Expertise & Skills</h2>
+        <div class="grid md:grid-cols-3 gap-8">
+            <div class="bg-white p-8 border rounded-2xl shadow-sm hover:shadow-md transition text-center">
+                <div class="text-blue-600 text-4xl mb-4 text-center flex justify-center">💻</div>
+                <h3 class="font-bold text-xl mb-2">Frontend Dev</h3>
+                <p class="text-gray-600">Building beautiful, interactive interfaces using React and Tailwind.</p>
             </div>
-            <div class="p-6 border rounded-lg shadow-sm text-center">
-                <h3 class="font-bold mb-2">Backend Dev</h3>
-                <p class="text-sm">Node.js, PHP & Database Management</p>
+            <div class="bg-white p-8 border rounded-2xl shadow-sm hover:shadow-md transition text-center">
+                <div class="text-blue-600 text-4xl mb-4 text-center flex justify-center">⚙️</div>
+                <h3 class="font-bold text-xl mb-2">Backend Dev</h3>
+                <p class="text-gray-600">Robust server-side logic and database management with Node.js.</p>
             </div>
-            <div class="p-6 border rounded-lg shadow-sm text-center">
-                <h3 class="font-bold mb-2">E-commerce</h3>
-                <p class="text-sm">Custom Stores & Payment Integration</p>
+            <div class="bg-white p-8 border rounded-2xl shadow-sm hover:shadow-md transition text-center">
+                <div class="text-blue-600 text-4xl mb-4 text-center flex justify-center">🛒</div>
+                <h3 class="font-bold text-xl mb-2">E-commerce</h3>
+                <p class="text-gray-600">Creating scalable online stores with secure payment systems.</p>
+            </div>
+        </div>
+    </main>
+
+    <section class="bg-blue-900 text-white py-20 px-6 text-center">
+        <h2 class="text-4xl font-bold mb-8">Ready to Start Your Project?</h2>
+        <div class="max-w-2xl mx-auto bg-white/10 backdrop-blur-md p-10 rounded-3xl border border-white/20">
+            <p class="mb-8 text-xl">Contact me directly for freelance projects or long-term collaborations.</p>
+            <div class="space-y-4">
+                <div class="text-2xl font-semibold">
+                    <span class="text-blue-300">WhatsApp:</span> +92 327 6175848
+                </div>
+                <div class="text-2xl font-semibold">
+                    <span class="text-blue-300">Email:</span> fahadniazi09@gmail.com
+                </div>
             </div>
         </div>
     </section>
 
-    <section class="max-w-4xl mx-auto py-12 px-6 text-center">
-        <h2 class="text-2xl font-bold mb-6">Get In Touch</h2>
-        <div class="bg-blue-50 p-8 rounded-xl border border-blue-200">
-            <p class="mb-4 text-lg font-medium">Available for freelance projects and long-term collaborations.</p>
-            <p class="text-blue-700 font-bold text-xl mb-2">WhatsApp: +92 327 6175848</p>
-            <p class="text-blue-700 font-bold text-xl">Email: fahadniazi09@
+    <footer class="bg-gray-950 text-gray-400 py-8 text-center text-sm">
+        &copy; 2026 Fahad Niazi. All rights reserved. | Professional Web Solutions
+    </footer>
+
+</body>
+</html>
